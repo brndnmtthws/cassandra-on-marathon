@@ -1,0 +1,9 @@
+--- 
+cluster: your-cluster
+zk_hosts: 
+  - 10.0.0.1:2181
+  - 10.0.0.2:2181
+  - 10.0.0.3:2181
+
+snapshot_uri: s3://some-bucket/...
+s3cmd_config: /path/to/s3cmd/config
